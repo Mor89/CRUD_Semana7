@@ -11,7 +11,7 @@ public class MenuPrincipal {
         desplegarMenu();
     }
 
-    private static void desplegarMenu() throws SQLException {
+    static void desplegarMenu() throws SQLException {
      Scanner opcionSeleccionada = new Scanner(System.in);
      String opcionMenu;
      // Menú a desplegar
@@ -31,7 +31,7 @@ public class MenuPrincipal {
         //Despiegue de menú basado en las opción seleccionada
         switch(opcionMenu){
             case "1": 
-                // Create create = new Create();
+                 Create create = new Create();
                 break;
             case "2": 
                 // Read read = new Read();
