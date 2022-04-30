@@ -89,7 +89,7 @@ public void desplegarRegistros(String tablaBuscar, String camposBuscar, String c
         stmt = cone.createStatement();
         stmt.executeQuery(sqlQueryStmt);
         
-        try(ResultSet miResult = stmt.executeQuery(sqlQueryStmt)){
+        try(ResultSet miResultSet = stmt.executeQuery(sqlQueryStmt)){
             if (miResultSet.next()){
                 ResultSetMetaData metaData = miResultSet.getMetaData();
                 int numColumnas = metaData.getColumnCount();
