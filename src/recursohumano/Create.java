@@ -23,7 +23,7 @@ public class Create {
         String tabla = "tb_contacto";
         String camposTabla = "nom_contacto, email_contacto, tel_contacto";
         String valoresCampos = "'" + person.getNomPersona() + "','" + person.getEmailPersona() + "','"
-                + person.getTelPersona() + "','";
+                + person.getTelPersona() + "'";
 
         ConexionCRUD utilerias = new ConexionCRUD();
 

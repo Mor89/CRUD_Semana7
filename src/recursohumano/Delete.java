@@ -16,7 +16,7 @@ public class Delete {
         //Reingreso de datos para actualizar 
         String tabla = "tb_contacto";
         String campos = "*";
-        String condicion = "id_contacto " + idContactoEliminar;
+        String condicion = "id_contacto = " + idContactoEliminar;
         utilerias.desplegarRegistros(tabla, campos, condicion);
         
         System.out.println("Presionar << Y >> para confirmar: ");

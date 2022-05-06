@@ -11,7 +11,7 @@ public class Update {
       ConexionCRUD utilerias = new ConexionCRUD();
       System.out.println("<< ACTUALIZAR REGISTROS >>");
       
-      System.out.println("Ingresar id dl registro a modificar: ");
+      System.out.println("Ingresar id del registro a modificar: ");
       person.setIdPersona(leer.nextInt());
       
       String tablaBuscar = "tb_contacto";
